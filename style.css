@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.container {
+    font-family: "Manrope", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 25em;
+    min-width: 20em;
+    max-height: 50em;
+    border-radius: 0.625em;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    position: absolute;
+    margin: 2em;
+}
+
+.title {
+    font-size: 80%;
+    font-weight: 800;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    margin-top: 1em;
+    position: absolute;
+    top: 1.9em;
+}
+
+.advice {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+    padding-bottom: 1em;
+    margin-top: 3em;
+}
+
+.line {
+    width: 80%;
+    top: 1.5em;
+    position: relative;
+}
+
+.btn {
+    width: 4em;
+    height: 4em;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: 4.2em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0em 0em 1.25em hsl(150, 100%, 66%);
+}
+
+.fa-solid {
+    font-size: 1.5em;
+    color: hsl(151, 51%, 15%);
+}
+
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
+    position: relative;
+    top: 25em;
+    color: aliceblue;
+}
+
+.attribution a {
+    color: hsl(150, 100%, 66%);
+}
